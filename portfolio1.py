@@ -1,18 +1,15 @@
 # Portfolio 1: My Daily Allowance Tracker
 
 # **Description:**
-# A simple program I made to track my daily allowance and calculate how much cash I have left over after my expenses.
+# A simple program I made to show how my allowance is deducted by my expenses.
 
-# Enter my allowance and daily spending
-my_allowance = input("How much is my allowance for today? ")
-my_expenses = input("How much did I spend today? ")
+# I put my numbers directly into the variables
+my_allowance = 1000
+my_expenses = 890
 
-# Convert the strings into decimal numbers so I can do math
-my_allowance = float(my_allowance)
-my_expenses = float(my_expenses)
-
-# Calculate what I have left
 cash_left = my_allowance - my_expenses
 
-# Display my remaining money
-print("My remaining cash for today is:", cash_left)
+# Display the results to show it worked
+print("My total allowance was:", my_allowance)
+print("I spent exactly:", my_expenses)
+print("After deducting, my remaining cash is:", cash_left)
